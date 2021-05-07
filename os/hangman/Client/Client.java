@@ -49,7 +49,7 @@ public class Client {
     }
 
     protected void startGame() {
-        sendObject("STOP");
+        sendObject("START");
     }
 
     protected void stopGame() {
